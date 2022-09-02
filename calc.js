@@ -3,7 +3,8 @@ const display = (val) =>{
 }
 const calc = () =>{
     let p = document.querySelector('#result').value
-    console.log(p);
+    
+    // this eval() methos process the expressoon and return result 
     let q = eval(p);
     document.querySelector('#result').value = q;
 
